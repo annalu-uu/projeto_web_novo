@@ -3,4 +3,38 @@ seletor{
     propriedade: valor;
     propriedade: valor;
 }
-*/    
+*/
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:rgb(153, 90, 211);
+}
+
+p{
+    font-family: Helvetica;
+    text-align: justify;
+    line-height: 35px;
+}
+
+#paragrafo01 {
+    margin-right: 300px;
+    background-color: #f0f8ff;
+}
+
+#paragrafo02 {
+    margin-right: 300px;
+    background-color: #00ffff;
+}
+
+.paragrafos{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.3em;
+    line-height: 80px;
+}
+
+.parag_especial{
+    text-decoration: line-through;
+    background-color: aquamarine;
+}
