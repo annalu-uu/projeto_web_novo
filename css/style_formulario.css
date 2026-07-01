@@ -25,3 +25,18 @@ label{
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+
+.input-v1r01{
+    width: 400px;
+}
+
+.input-v1r01, .input-v1r02{
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.input-v1r02{
+    width: 250px;
+}
