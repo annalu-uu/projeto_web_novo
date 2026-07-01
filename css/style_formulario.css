@@ -40,3 +40,9 @@ label{
 .input-v1r02{
     width: 250px;
 }
+
+input[ype="radio"], input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
