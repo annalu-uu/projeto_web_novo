@@ -46,3 +46,29 @@ input[ype="radio"], input[type="checkbox"]{
     height: 25px;
     cursor: pointer;
 }
+
+textarea{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    resize: none;
+}
+
+#div-btns{
+    border: solid 5px #941bcc;
+    margin: 20px 0px;
+    padding: 5px;
+}
+   
+
+button{
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #a970c4;
+    letter-spacing: 2px;
+}
+
