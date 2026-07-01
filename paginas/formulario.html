@@ -12,11 +12,48 @@
 
         <form name="form" id="form" method="post">
             <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" class="input-v1r0l" maxlength="30" required
+            <input type="text" name="nome" id="nome" class="input-v1r01" maxlength="30" required
             placeholder="Informe o nome">
 
             <label for="cpf">CPF</label>
-            <input type="text">
+            <input type="number" name="cpf" id="cpf" class="input-v1r02" maxlength="14" required
+            placeholder="Informe o CPF">
+
+            <label for="datadenascimento">Data de Nascimento</label>
+            <input type="date" name="datadenascimento" id="datadenascimento" class="input-v1r02" required>
+
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sexo" id="sexoF" class="input-op" value="F"> Feminino
+            <input type="radio" name="sexo" id="sexoM" class="input-op" value="M"> Masculino
+            <input type="radio" name="sexo" id="sexoN" class="input-op" value="N"> Não Declarar
+
+            <label for="preferencias">Preferencias</label>
+            <input type="checkbox" name="estudo" id="estudo" class="input-op" value="estudo"> Estudo
+            <input type="checkbox" name="trabalho" id="trabalho" class="input-op" value="trabalho"> Trabalho
+            <input type="checkbox" name="viagem" id="viagem" class="input-op" value="viagem"> Viagem
+            <input type="checkbox" name="compras" id="compras" class="input-op" value="compras"> Compras
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" class="input-v1r02" maxlength="6" required
+            placeholder="Informe a senha">
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado" class="input-v1r02" required>
+                <option>Selecione um Estado</option>
+                <option value="Al">Alagoas</option>
+                <option value="Ba">Bahia</option>
+                <option value="Ce">Ceará</option>
+                <option value="Ma">Maranhão</option>
+                <option value="Pb">Paraíba</option>
+                <option value="Pe">Pernambuco</option>
+                <option value="Pi">Piauí</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="Se">Sergipe</option>
+            </select>
+
+            <label for="comentario">Comentário</label>
+            <textarea name="comentario" id="comentario" placeholder="Informe seu comentário" 
+            required></textarea>
 
         </form>
 
